@@ -32,9 +32,7 @@ pipeline {
                         }
                         stage('Integration test') {
                         agent {
-                                docker {
-                                        reuseNode false
-                                        }
+
 			}
 				steps {
 					echo 'Running the integration test..'
