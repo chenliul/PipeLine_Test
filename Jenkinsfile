@@ -34,7 +34,7 @@ pipeline {
                         agent {
                                 docker {
                                         reuseNode false
-					echo "integration test"
+					docker 'openjdk:8-jre'
                                         }
 			}
 				steps {
