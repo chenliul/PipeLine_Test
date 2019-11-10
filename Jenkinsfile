@@ -34,7 +34,6 @@ pipeline {
                         agent {
                                 docker {
                                         reuseNode false
-					docker 'openjdk:8-jre'
                                         }
 			}
 				steps {
